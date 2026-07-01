@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr"><head><title>foreign-rebalancing-cascade-frame</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="heung-external-brain"/><meta property="og:title" content="foreign-rebalancing-cascade-frame"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="foreign-rebalancing-cascade-frame"/><meta name="twitter:description" content="Foreign Rebalancing Cascade Frame 핵심 명제 외국인 순매도는 종목 펀더 비호감이 아니라 비중조절 의무에서 발생한다."/><meta property="og:description" content="Foreign Rebalancing Cascade Frame 핵심 명제 외국인 순매도는 종목 펀더 비호감이 아니라 비중조절 의무에서 발생한다."/><meta property="og:image:alt" content="Foreign Rebalancing Cascade Frame 핵심 명제 외국인 순매도는 종목 펀더 비호감이 아니라 비중조절 의무에서 발생한다."/><meta property="twitter:domain" content="mopil.github.io/memory-space-public"/><meta property="og:url" content="https://mopil.github.io/memory-space-public/investing/theses/foreign-rebalancing-cascade-frame"/><meta property="twitter:url" content="https://mopil.github.io/memory-space-public/investing/theses/foreign-rebalancing-cascade-frame"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="Foreign Rebalancing Cascade Frame 핵심 명제 외국인 순매도는 종목 펀더 비호감이 아니라 비중조절 의무에서 발생한다."/><meta name="generator" content="Quartz"/><link href="../../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvcnVubmVyL3dvcmsvbWVtb3J5LXNwYWNlL21lbW9yeS1zcGFjZS93ZWItdWkvcXVhcnR6L2NvbXBvbmVudHMvc3R5bGVzIiwic291cmNlcyI6WyJtZXJtYWlkLmlubGluZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFHRjtFQUNFOzs7QUFLRjtFQUNFO0VBQ0E7OztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICB0cmFuc2Zvcm0tb3JpZ2luOiAwIDA7XG4gICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4xcyBlYXNlO1xuICAgICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgICBtaW4taGVpZ2h0OiAyMDBweDtcbiAgICAgIG1pbi13aWR0aDogMjAwcHg7XG5cbiAgICAgIHByZSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgfVxuXG4gICAgICBzdmcge1xuICAgICAgICBtYXgtd2lkdGg6IG5vbmU7XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgIH1cbiAgICB9XG5cbiAgICAmID4gLm1lcm1haWQtY29udHJvbHMge1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgYm90dG9tOiAyMHB4O1xuICAgICAgcmlnaHQ6IDIwcHg7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZ2FwOiA4cHg7XG4gICAgICBwYWRkaW5nOiA4cHg7XG4gICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgYm9yZGVyLXJhZGl1czogNnB4O1xuICAgICAgYm94LXNoYWRvdzogMCAycHggNHB4IHJnYmEoMCwgMCwgMCwgMC4xKTtcbiAgICAgIHotaW5kZXg6IDI7XG5cbiAgICAgIC5tZXJtYWlkLWNvbnRyb2wtYnV0dG9uIHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIHdpZHRoOiAzMnB4O1xuICAgICAgICBoZWlnaHQ6IDMycHg7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgICAgY29sb3I6IHZhcigtLWRhcmspO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICBmb250LWZhbWlseTogdmFyKC0tYm9keUZvbnQpO1xuICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xuXG4gICAgICAgICY6aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIH1cblxuICAgICAgICAmOmFjdGl2ZSB7XG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDFweCk7XG4gICAgICAgIH1cblxuICAgICAgICAvLyBTdHlsZSB0aGUgcmVzZXQgYnV0dG9uIGRpZmZlcmVudGx5XG4gICAgICAgICY6bnRoLWNoaWxkKDIpIHtcbiAgICAgICAgICB3aWR0aDogYXV0bztcbiAgICAgICAgICBwYWRkaW5nOiAwIDEycHg7XG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG4iXX0= */</style><script src="../../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://mopil.github.io/memory-space-public/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://mopil.github.io/memory-space-public/investing/theses/foreign-rebalancing-cascade-frame-og-image.webp"/><meta property="og:image:url" content="https://mopil.github.io/memory-space-public/investing/theses/foreign-rebalancing-cascade-frame-og-image.webp"/><meta name="twitter:image" content="https://mopil.github.io/memory-space-public/investing/theses/foreign-rebalancing-cascade-frame-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="investing/theses/foreign-rebalancing-cascade-frame"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">heung-external-brain</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>검색</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="검색어를 입력하세요" placeholder="검색어를 입력하세요"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="다크 모드"><title>다크 모드</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="라이트 모드"><title>라이트 모드</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="리더 모드"><title>리더 모드</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-144"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>탐색기</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-144" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../investing/">investing</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../investing/theses/">theses</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>foreign rebalancing cascade frame</a></div></nav><h1 class="article-title">foreign-rebalancing-cascade-frame</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-11T00:00:00.000Z">2026년 5월 11일</time><span>10 min read</span></p><ul class="tags"><li><a href="../../tags/framework" class="internal tag-link">framework</a></li><li><a href="../../tags/foreign-flow" class="internal tag-link">foreign-flow</a></li><li><a href="../../tags/kospi" class="internal tag-link">kospi</a></li><li><a href="../../tags/kosdaq" class="internal tag-link">kosdaq</a></li><li><a href="../../tags/rebalancing" class="internal tag-link">rebalancing</a></li><li><a href="../../tags/etf-cascade" class="internal tag-link">etf-cascade</a></li><li><a href="../../tags/basket-selling" class="internal tag-link">basket-selling</a></li></ul></div></div><article class="popover-hint"><h1 id="foreign-rebalancing-cascade-frame">Foreign Rebalancing Cascade Frame<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#foreign-rebalancing-cascade-frame" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="핵심-명제">핵심 명제<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#핵심-명제" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>외국인 순매도는 <strong>종목 펀더 비호감이 아니라 비중조절 의무</strong>에서 발생한다. 글로벌 펀드는 “Korea allocation X%” 정책을 갖고 운영하며, 한국 지수 폭등 시 평가액이 자동으로 부풀어 정책 비중을 넘기면 <strong>기계적으로 매도</strong>한다.</p>
+<blockquote>
+<p>외국인 매도 ≠ “한국 비싫음”. 외국인 매도 = <strong>“내 펀드 정책 비중 위반될까봐 의무 조정”</strong>.</p>
+</blockquote>
+<p>이 차이를 알아야 매도의 <strong>지속성·강도·종착점</strong>을 평가할 수 있다.</p>
+<hr/>
+<h2 id="메커니즘-수식">메커니즘 수식<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#메커니즘-수식" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>펀드의 한국 비중 정책: <code>target ± band</code> (예: 10% ± 2%p)</p>
+<ul>
+<li>시점 t0: <code>Korea_NAV / Total_NAV = target</code></li>
+<li>시점 t1: 한국 지수 +r 상승, 다른 지역 +r̄ 상승</li>
+<li>새 비중 = <code>(Korea_NAV × (1+r)) / (Korea_NAV × (1+r) + Others_NAV × (1+r̄))</code></li>
+<li>비중이 <code>target + band</code> 상회 → <strong>매도 트리거</strong></li>
+<li>매도량 = 비중을 <code>target</code> 또는 <code>target + 0.5×band</code> 수준으로 되돌릴 양</li>
+</ul>
+<h3 id="예시-2025-12--2026-02-한국-케이스">예시 (2025-12 ~ 2026-02 한국 케이스)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#예시-2025-12--2026-02-한국-케이스" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>가상 펀드 1,000 (한국 100, 미국 600, 신흥국 기타 300, target Korea 10%)</li>
+<li>한국 +50% (100 → 150), 미국 +5% (600 → 630), 기타 +10% (300 → 330)</li>
+<li>새 NAV = 1,110, 한국 비중 = 150/1,110 = <strong>13.5%</strong> → +3.5%p 초과</li>
+<li>10%로 복귀: 한국 매도 41 (150 → 109 ≈ NAV × 10%)</li>
+<li>→ 한국 지수 50% 상승 시 한국 보유의 약 **27%**를 던져야 비중 정상화</li>
+</ul>
+<p><strong>한국 지수가 더 오를수록 → 매도해야 할 절대금액 비선형 증가</strong>.</p>
+<hr/>
+<h2 id="매도-주체-4분류-지속성강도-예측">매도 주체 4분류 (지속성·강도 예측)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#매도-주체-4분류-지속성강도-예측" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>주체</th><th>매도 방식</th><th>지속성</th><th>강도</th></tr></thead><tbody><tr><td><strong>패시브 ETF</strong> (블랙록 EEM, MSCI EM 추종)</td><td>한도 깨질 때만, 분기 리밸런싱 시점</td><td>짧음 (며칠~1주)</td><td>중</td></tr><tr><td><strong>연기금</strong> (노르웨이 NBIM, 일본 GPIF, 미국 캘퍼스)</td><td>분기/반기 비중 조절, 점진적</td><td><strong>길음 (1~3개월)</strong></td><td><strong>강</strong></td></tr><tr><td><strong>헤지펀드/IB</strong> (시타델, 골드만 자기자본)</td><td>차익실현 + 단기 숏 베팅</td><td>변동성 큼 (1~2주)</td><td>강</td></tr><tr><td><strong>퀀트/알고리즘</strong> (르네상스, AQR)</td><td>모멘텀 깨지면 자동</td><td>매우 짧음 (1~3일)</td><td>중</td></tr></tbody></table></div>
+<h3 id="식별-단서">식별 단서<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#식별-단서" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>단기 자금 매도 신호</strong>: 1-2일 집중 매도 후 거래량 급감. 변동성 지표 급등.</li>
+<li><strong>연기금 매도 신호</strong>: 균일한 일별 매도 (예: 일 -3~5조원이 1-2개월 이어짐). 시점이 분기 말 근처.</li>
+<li><strong>패시브 매도 신호</strong>: MSCI 리밸런싱 일정(2/5/8/11월) 직전·당일 집중.</li>
+</ul>
+<p>→ 매도 첫 2-3일은 주체 구분 어려움. <strong>누적 매도 규모와 패턴이 드러나는 시점부터 판단</strong>.</p>
+<hr/>
+<h2 id="kospi-vs-kosdaq-차등-영향">KOSPI vs KOSDAQ 차등 영향<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#kospi-vs-kosdaq-차등-영향" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>외국인이 한국 비중 조절 시 <strong>시장별·인덱스별 노출도가 다르다</strong>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>항목</th><th>KOSPI</th><th>KOSDAQ</th></tr></thead><tbody><tr><td>외인 보유 비중</td><td>약 32-33% (절대치 큼)</td><td>약 10-12% (작음)</td></tr><tr><td>메인 매도 대상</td><td><strong>삼성전자(시총 ~25%), SK하이닉스(~10%) 등 대형주</strong></td><td>바이오, 2차전지 일부</td></tr><tr><td>바스켓 매도 영향</td><td>KOSPI200 ETF 매도 시 직격</td><td>KOSDAQ150 ETF, 영향 작음</td></tr><tr><td>단일 매도일 충격 (2026-05-08)</td><td>외인 -6.26조</td><td>-0.91% 하락 수준</td></tr></tbody></table></div>
+<p><strong>메인 매도 메커니즘은 KOSPI 대형주 직접 매도</strong>. 시총이 큰 종목부터 던지는 것이 가장 효율적이기 때문.</p>
+<hr/>
+<h2 id="바스켓-매도-cascade-중소형주-휩쓸림">바스켓 매도 Cascade (중소형주 휩쓸림)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#바스켓-매도-cascade-중소형주-휩쓸림" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>외인이 시총 대형주만 던지는데 왜 중소형주도 떨어지는가?</p>
+<h3 id="cascade-layer-1-etf-환매-매도">Cascade Layer 1: ETF 환매 매도<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#cascade-layer-1-etf-환매-매도" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>외인이 KOSPI200 ETF 통째로 매도 → ETF 내부 모든 편입종목이 비중대로 자동 매도</li>
+<li>KOSPI200 편입 중소형주도 함께 휩쓸림</li>
+<li>KOSDAQ150도 동일 메커니즘 (단 매도 규모 작음)</li>
+</ul>
+<h3 id="cascade-layer-2-심리적-위축">Cascade Layer 2: 심리적 위축<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#cascade-layer-2-심리적-위축" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>삼전 -3% → “코스피 위험” 분위기 → 개인이 모든 종목 던지기 시작</li>
+<li>펀더 무관, 동반 하락</li>
+<li>회복 속도는 빠름 (펀더 우수 종목은 1-2주 내 회복)</li>
+</ul>
+<h3 id="cascade-layer-3-섹터-etf-환매">Cascade Layer 3: 섹터 ETF 환매<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#cascade-layer-3-섹터-etf-환매" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>외인이 KODEX 반도체, TIGER 2차전지 등 섹터 ETF 동시 매도</li>
+<li>섹터 내 종목 동반 매도 (시총 비중대로)</li>
+</ul>
+<hr/>
+<h2 id="포트폴리오-익스포저-평가-체크리스트">포트폴리오 익스포저 평가 체크리스트<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#포트폴리오-익스포저-평가-체크리스트" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>종목별 매크로 매도 위험 평가 시 다음 4축 확인:</p>
+<h3 id="1-시장-kospi-vs-kosdaq">1. 시장 (KOSPI vs KOSDAQ)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-시장-kospi-vs-kosdaq" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>KOSPI = 외인 직격 위험 ★★★★★</li>
+<li>KOSDAQ = 상대적 안전 ★★</li>
+</ul>
+<h3 id="2-인덱스-편입-바스켓-매도-노출">2. 인덱스 편입 (바스켓 매도 노출)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-인덱스-편입-바스켓-매도-노출" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>KOSPI200 편입 = 매크로 바스켓 매도 cascade 직격</li>
+<li>KOSDAQ150 편입 = 코스닥 ETF 매도 cascade</li>
+<li>미편입 = 직접 cascade 회피, 단 심리적 위축은 받음</li>
+</ul>
+<h3 id="3-외인-보유-비중">3. 외인 보유 비중<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-외인-보유-비중" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>외인 보유 25%+ = 매도 시 충격 큼 (반도체 소재 등 외인 선호 종목)</li>
+<li>외인 보유 10% 미만 = 매도 시 충격 제한적</li>
+</ul>
+<h3 id="4-섹터-etf-편입">4. 섹터 ETF 편입<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-섹터-etf-편입" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>KODEX 반도체, TIGER 2차전지 등 섹터 ETF 편입 = 추가 cascade 위험</li>
+<li>섹터 ETF 외 = 위험 1차원 적음</li>
+</ul>
+<h3 id="위험-등급-매트릭스">위험 등급 매트릭스<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#위험-등급-매트릭스" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>시장</th><th>KOSPI200</th><th>KOSDAQ150</th><th>미편입</th></tr></thead><tbody><tr><td>KOSPI</td><td>★★★★★ 직격</td><td>-</td><td>★★★</td></tr><tr><td>KOSDAQ</td><td>-</td><td>★★★</td><td>★★</td></tr></tbody></table></div>
+<p>위 등급 × 외인 보유 비중 × 섹터 ETF 편입 → 종합 위험도 산출.</p>
+<hr/>
+<h2 id="실증-케이스-2026-05-08-kospi-7498-사상최고치">실증 케이스 (2026-05-08, KOSPI 7,498 사상최고치)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#실증-케이스-2026-05-08-kospi-7498-사상최고치" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="사실관계">사실관계<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#사실관계" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>항목</th><th>데이터</th></tr></thead><tbody><tr><td>5/7 외인 순매도</td><td><strong>-8조원+</strong> (역대급)</td></tr><tr><td>5/8 외인 순매도</td><td><strong>-6.26조원</strong></td></tr><tr><td>이틀 합계</td><td><strong>약 -14조원</strong></td></tr><tr><td>KOSPI 5/8 종가</td><td>7,498.0 (+0.11%, <strong>사상최고치</strong>)</td></tr><tr><td>KOSPI 장중 저점</td><td>7,318.96 (-2.28%까지 급락 후 회복)</td></tr><tr><td>개인 매수 (5/8)</td><td>+4조 7,912억</td></tr><tr><td>기관 매수 (5/8)</td><td>+1조 3,069억</td></tr><tr><td>선물 야간거래</td><td>5월 14.6조/일 (작년 12월 4.9조 대비 3배)</td></tr></tbody></table></div>
+<h3 id="관찰">관찰<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#관찰" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>외인 매도 vs 국내 매수력 <strong>동수 구도</strong>. KOSPI 사상최고치 유지</li>
+<li>대신증권: “외국인은 <strong>대형 전기·전자 업종 중심</strong> 순매도 확대” → 메커니즘 부합</li>
+<li>KOSDAQ 5/8: -0.91% (코스피 외인 매도 대비 약함)</li>
+<li>매도 주체는 복합 (패시브 + 헤지펀드 + 부분 연기금 추정)</li>
+</ul>
+<h3 id="시나리오">시나리오<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#시나리오" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>시나리오</th><th>확률</th><th>영향</th></tr></thead><tbody><tr><td>A. 단기 조정 후 재상승</td><td>45%</td><td>-5~-8%, 1-2주 회복</td></tr><tr><td>B. 중기 조정</td><td>35%</td><td>-10~-15%, 1-2개월</td></tr><tr><td>C. 추세 전환</td><td>20%</td><td>-20%+, 한국 비중 축소 시급</td></tr></tbody></table></div>
+<hr/>
+<h2 id="운용-룰">운용 룰<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#운용-룰" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="매도-진행-중-현재-진행-신호-감지-시">매도 진행 중 (현재 진행 신호 감지 시)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#매도-진행-중-현재-진행-신호-감지-시" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li><strong>KOSPI 노출 종목 우선 트림</strong>: 비중 한도 내라도 카테고리 한도 상단으로 축소</li>
+<li><strong>KOSDAQ 노출 종목 유지 가능</strong>: thesis 정상이면 일단 보유</li>
+<li><strong>현금 비중 20%+ 확보</strong>: 시나리오 B/C 현실화 시 줍줍 자금</li>
+<li><strong>신규 진입 보류</strong>: 외인 누적 매도 -20조원 + 매수 전환 시그널 확인 후</li>
+</ol>
+<h3 id="매도-종착-신호">매도 종착 신호<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#매도-종착-신호" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>누적 매도 -20~30조원</strong> 후 외인 매수 전환 (일 +5,000억~1조)</li>
+<li><strong>MSCI 리밸런싱 직후</strong> (2/5/8/11월) 매도 압박 일단락</li>
+<li><strong>변동성 지표 정상화</strong> (선물 야간거래 일평균 5조 이하)</li>
+<li><strong>삼전/하닉 거래량 정상화</strong> (전일 대비 +50% 이하)</li>
+</ul>
+<p>→ 3개 이상 동시 확인 시 매크로 위험 일단락 판단.</p>
+<hr/>
+<h2 id="관련-프레임">관련 프레임<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#관련-프레임" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../../investing/theses/institutional-flow-3metrics" class="internal" data-slug="investing/theses/institutional-flow-3metrics">institutional-flow-3metrics</a> — 거래대금/거래량/시총비중 본질 분리. 외인 매도도 이 3지표로 추적.</li>
+<li><a href="../../investing/theses/market-ignores-macro-until-threshold" class="internal" data-slug="investing/theses/market-ignores-macro-until-threshold">market-ignores-macro-until-threshold</a> — 매크로 누적 임계점 인식 패턴. 외인 매도 누적치가 임계점 도달까지 시장 무시.</li>
+<li><a href="../../investing/theses/macro-scenario-matrix" class="internal" data-slug="investing/theses/macro-scenario-matrix">macro-scenario-matrix</a> — 매크로 이벤트 시나리오 A/B/C. 외인 매도 진행 시 적용.</li>
+<li><a href="../../investing/theses/ipo-liquidity-drain-pattern" class="internal" data-slug="investing/theses/ipo-liquidity-drain-pattern">ipo-liquidity-drain-pattern</a> — 대형 IPO 유동성 흡수. 외인 매도 + IPO 유동성 흡수가 겹치면 cascade 강화.</li>
+</ul>
+<hr/>
+<h2 id="메모">메모<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#메모" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>사용자(커뮤니티) 원본 주장: 12월<del>2월 KOSPI +57% 상승 → 외인 -57조 매도 (3월말까지). 실제 검증: KOSPI +41</del>47% 상승, 매도 규모는 추정 30~40조원대. 방향성·메커니즘은 정확, 수치는 일부 과장.</li>
+<li>1차 작성 시점 데이터: 2026-05-11 (KOSPI 5/8 7,498 사상최고치, 외인 5/7-5/8 -14조 매도 진행 중).</li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>그래프 뷰</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:2,&quot;scale&quot;:1.15,&quot;repelForce&quot;:0.6,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:35,&quot;fontSize&quot;:0.7,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:1,&quot;repelForce&quot;:0.7,&quot;centerForce&quot;:0.25,&quot;linkDistance&quot;:40,&quot;fontSize&quot;:0.65,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-66" aria-expanded="true"><h3>목차</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#foreign-rebalancing-cascade-frame" data-for="foreign-rebalancing-cascade-frame">Foreign Rebalancing Cascade Frame</a></li><li class="depth-1"><a href="#핵심-명제" data-for="핵심-명제">핵심 명제</a></li><li class="depth-1"><a href="#메커니즘-수식" data-for="메커니즘-수식">메커니즘 수식</a></li><li class="depth-2"><a href="#예시-2025-12--2026-02-한국-케이스" data-for="예시-2025-12--2026-02-한국-케이스">예시 (2025-12 ~ 2026-02 한국 케이스)</a></li><li class="depth-1"><a href="#매도-주체-4분류-지속성강도-예측" data-for="매도-주체-4분류-지속성강도-예측">매도 주체 4분류 (지속성·강도 예측)</a></li><li class="depth-2"><a href="#식별-단서" data-for="식별-단서">식별 단서</a></li><li class="depth-1"><a href="#kospi-vs-kosdaq-차등-영향" data-for="kospi-vs-kosdaq-차등-영향">KOSPI vs KOSDAQ 차등 영향</a></li><li class="depth-1"><a href="#바스켓-매도-cascade-중소형주-휩쓸림" data-for="바스켓-매도-cascade-중소형주-휩쓸림">바스켓 매도 Cascade (중소형주 휩쓸림)</a></li><li class="depth-2"><a href="#cascade-layer-1-etf-환매-매도" data-for="cascade-layer-1-etf-환매-매도">Cascade Layer 1: ETF 환매 매도</a></li><li class="depth-2"><a href="#cascade-layer-2-심리적-위축" data-for="cascade-layer-2-심리적-위축">Cascade Layer 2: 심리적 위축</a></li><li class="depth-2"><a href="#cascade-layer-3-섹터-etf-환매" data-for="cascade-layer-3-섹터-etf-환매">Cascade Layer 3: 섹터 ETF 환매</a></li><li class="depth-1"><a href="#포트폴리오-익스포저-평가-체크리스트" data-for="포트폴리오-익스포저-평가-체크리스트">포트폴리오 익스포저 평가 체크리스트</a></li><li class="depth-2"><a href="#1-시장-kospi-vs-kosdaq" data-for="1-시장-kospi-vs-kosdaq">1. 시장 (KOSPI vs KOSDAQ)</a></li><li class="depth-2"><a href="#2-인덱스-편입-바스켓-매도-노출" data-for="2-인덱스-편입-바스켓-매도-노출">2. 인덱스 편입 (바스켓 매도 노출)</a></li><li class="depth-2"><a href="#3-외인-보유-비중" data-for="3-외인-보유-비중">3. 외인 보유 비중</a></li><li class="depth-2"><a href="#4-섹터-etf-편입" data-for="4-섹터-etf-편입">4. 섹터 ETF 편입</a></li><li class="depth-2"><a href="#위험-등급-매트릭스" data-for="위험-등급-매트릭스">위험 등급 매트릭스</a></li><li class="depth-1"><a href="#실증-케이스-2026-05-08-kospi-7498-사상최고치" data-for="실증-케이스-2026-05-08-kospi-7498-사상최고치">실증 케이스 (2026-05-08, KOSPI 7,498 사상최고치)</a></li><li class="depth-2"><a href="#사실관계" data-for="사실관계">사실관계</a></li><li class="depth-2"><a href="#관찰" data-for="관찰">관찰</a></li><li class="depth-2"><a href="#시나리오" data-for="시나리오">시나리오</a></li><li class="depth-1"><a href="#운용-룰" data-for="운용-룰">운용 룰</a></li><li class="depth-2"><a href="#매도-진행-중-현재-진행-신호-감지-시" data-for="매도-진행-중-현재-진행-신호-감지-시">매도 진행 중 (현재 진행 신호 감지 시)</a></li><li class="depth-2"><a href="#매도-종착-신호" data-for="매도-종착-신호">매도 종착 신호</a></li><li class="depth-1"><a href="#관련-프레임" data-for="관련-프레임">관련 프레임</a></li><li class="depth-1"><a href="#메모" data-for="메모">메모</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>백링크</h3><ul id="list-2" class="overflow"><li><a href="../../investing/principles/fear-greed-cycle-rule" class="internal">fear-greed-cycle-rule</a></li><li><a href="../../investing/theses/ai-capex-fcf-chicken-game" class="internal">ai-capex-fcf-chicken-game</a></li><li><a href="../../investing/theses/theses-meta-index" class="internal">theses-meta-index</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/mopil/memory-space-public">Source (private)</a></li><li><a href="https://quartz.jzhao.xyz">Quartz</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="../../postscript.js" type="module" data-persist="true"></script></html>
