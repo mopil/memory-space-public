@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>heung-external-brain</title>
+      <link>https://mopil.github.io/memory-space-public</link>
+      <description>최근 10 건 on heung-external-brain</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>heung-external-brain</title>
+    <link>https://mopil.github.io/memory-space-public/</link>
+    <guid>https://mopil.github.io/memory-space-public/</guid>
+    <description><![CDATA[ heung-external-brain 투자 판단을 외장화한 장기기억 위키의 공개판. 같은 실수를 두 번 하지 않기 위한 외장 판단 엔진. ]]></description>
+    <pubDate>Fri, 07 Aug 2026 11:13:24 GMT</pubDate>
+  </item><item>
+    <title>earning-season-window-play</title>
+    <link>https://mopil.github.io/memory-space-public/investing/action-rules/earning-season-window-play</link>
+    <guid>https://mopil.github.io/memory-space-public/investing/action-rules/earning-season-window-play</guid>
+    <description><![CDATA[ 바이너리 이벤트 사이 실적 윈도우 플레이 핵심 프레임 (onion_asset 2026-04-23) 바이너리 매크로 이벤트가 통과된 직후 ~ 다음 바이너리 발표 직전 구간에 실적 플레이를 집중. 매크로 불확실성이 일시 해소된 윈도우에서 실적 선별 진입이 기대값 최대. ]]></description>
+    <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>rule-calibration-protocol</title>
+    <link>https://mopil.github.io/memory-space-public/investing/principles/rule-calibration-protocol</link>
+    <guid>https://mopil.github.io/memory-space-public/investing/principles/rule-calibration-protocol</guid>
+    <description><![CDATA[ 원칙 위반 포지션 = 샘플 (Rule Calibration Protocol) the-great-principles 의 임계치(카테고리 비중, 단일 종목 상한, 복권형 상한 등)는 고정값이 아닌 가설. 실전 결과 누적으로 사후 조정한다. ]]></description>
+    <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>entry-2gate-frame</title>
+    <link>https://mopil.github.io/memory-space-public/investing/principles/entry-2gate-frame</link>
+    <guid>https://mopil.github.io/memory-space-public/investing/principles/entry-2gate-frame</guid>
+    <description><![CDATA[ 진입 — 2단계 게이트 (원칙 5) the-great-principles 원칙 5 상세. ① 펀더멘탈(1차 관문) → ② 차트(추세·모멘텀·수급)로 3각 설정. 1. 1차 관문 — 펀더멘탈 통과 못하면 진입 자체 안 함. ]]></description>
+    <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>thesis-4axis-validation-frame</title>
+    <link>https://mopil.github.io/memory-space-public/investing/principles/thesis-4axis-validation-frame</link>
+    <guid>https://mopil.github.io/memory-space-public/investing/principles/thesis-4axis-validation-frame</guid>
+    <description><![CDATA[ thesis 4축 사전 설정 프레임 원칙 narrative 진입 시 사전에 “어닝/이벤트에서 검증할 4축”을 명문화한다. 4축은 어닝콜 청취 중 실시간 체크 가능한 형태여야 하며, 4축 약화 판정 시 즉시 청산 판단 트리거가 된다. ]]></description>
+    <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>picks-and-shovels-3layer</title>
+    <link>https://mopil.github.io/memory-space-public/investing/theses/picks-and-shovels-3layer</link>
+    <guid>https://mopil.github.io/memory-space-public/investing/theses/picks-and-shovels-3layer</guid>
+    <description><![CDATA[ 삽과 곡괭이 — 벨류체인 3층 발굴 프레임 2026-04-17 AEHR 놓친 복기에서 나온 확장 프레임. optic-2stage-frame의 CitriniResearch 2단계를 3단계로 확장. ]]></description>
+    <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>binary-event-physical-confirmation</title>
+    <link>https://mopil.github.io/memory-space-public/investing/action-rules/binary-event-physical-confirmation</link>
+    <guid>https://mopil.github.io/memory-space-public/investing/action-rules/binary-event-physical-confirmation</guid>
+    <description><![CDATA[ 바이너리 매크로 이벤트 — 실물 확인 원칙 핵심 명제 매크로 바이너리 이벤트는 뉴스가 아닌 물리적/실물 확인 후 행동. 전쟁·위기·협상 결렬/타결 같은 바이너리 상황에서 헤드라인·성명·정상회담 결과는 선행지표가 아니라 동행지표에 가까운 후행지표. ]]></description>
+    <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>entry-memo-3lines</title>
+    <link>https://mopil.github.io/memory-space-public/investing/action-rules/entry-memo-3lines</link>
+    <guid>https://mopil.github.io/memory-space-public/investing/action-rules/entry-memo-3lines</guid>
+    <description><![CDATA[ 진입 메모 3줄 (필수 체크리스트) 미작성 시 진입 금지. 예외 없음. 항목내용1. 왜 사는가논제 1–2문장. 서사 아닌 촉매 중심2. 언제 나가는가익절 조건 + 손절 조건 + 논리 훼손 조건. ]]></description>
+    <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>supply-microstructure-checklist</title>
+    <link>https://mopil.github.io/memory-space-public/investing/action-rules/supply-microstructure-checklist</link>
+    <guid>https://mopil.github.io/memory-space-public/investing/action-rules/supply-microstructure-checklist</guid>
+    <description><![CDATA[ 수급 미시구조 체크리스트 (소형주) AUTL 선장 시리즈에서 학습한 툴킷. 소형주 진입/모니터링 시 루틴화. ]]></description>
+    <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>foundations-meta-index</title>
+    <link>https://mopil.github.io/memory-space-public/investing/foundations/foundations-meta-index</link>
+    <guid>https://mopil.github.io/memory-space-public/investing/foundations/foundations-meta-index</guid>
+    <description><![CDATA[ Investing Foundations — Meta Index foundations/ 폴더는 투자 판단의 밑에 깔리는 학문적 이론 토대. principles가 내 정체성이라면, foundations는 그 정체성이 기대고 있는 객관 지식(경제학·심리학 이론)이다. ]]></description>
+    <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
